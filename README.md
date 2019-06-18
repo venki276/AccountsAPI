@@ -1,6 +1,17 @@
 Accounts API
 ============
 
+## Technologies Used ##
+1. Java 8
+2. Spring boot 2.1.5
+3. HSQLDB
+
+## How To ##
+The API jar can be built by downloading the Repository and running the command **mvn package**  
+from AccountsAPI.
+
+To run the jar, **cd** to **AccountsAPI/target** and run **java -jar AccountsAPI-1.0.jar**
+
 ## The Database ##
 
 I have used HSQLDB for developing this API.  
