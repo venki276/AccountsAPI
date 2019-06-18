@@ -6,6 +6,8 @@ Accounts API
 2. Spring boot 2.1.5
 3. HSQLDB
 
+I have also used other minor libraries like gson, junit.
+
 ## How To ##
 The API jar can be built by downloading the Repository and running the command **mvn package**  
 from AccountsAPI.
