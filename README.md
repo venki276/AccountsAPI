@@ -31,7 +31,7 @@ The error object contains a unique ID and the exception message.
 The ID and stacktrace are written to logs.  
 Using this Id, the developer can visit logs to find the full stacktrace.
 
-If the provided input is not valid, then a custom exception is thrown and a similar error object is returned to client.
+If the provided input is not valid, then a custom exception of type **NoDataOrBadRequestException.java** is thrown and a similar error object is returned to client.
 
 ## End Points ##
 
