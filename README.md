@@ -10,7 +10,8 @@ Accounts API
 The API jar can be built by downloading the Repository and running the command **mvn package**  
 from AccountsAPI.
 
-To run the jar, **cd** to **AccountsAPI/target** and run **java -jar AccountsAPI-1.0.jar**
+To run the jar, **cd** to **AccountsAPI/target** and run **java -jar AccountsAPI-1.0.jar**  
+This deploys the API on port **8082**
 
 ## The Database ##
 
@@ -32,9 +33,9 @@ If the provided input is not valid, then a custom exception is thrown and a simi
 ## End Points ##
 
 Three end points can be accessed.  
-1. **/getAccounts** : this returns the list of accounts.  
-2. **/getTransaction/{accountNumber}** : this returns the list of account transactions or the error object if the account number is invalid.  
-3. **/testExceptionHandling** : an end point just to see the error object construction.  
+1. **/getAccounts** : this returns the list of accounts. (http://localhost:8082/getAccounts)  
+2. **/getTransactions/{accountNumber}** : this returns the list of account transactions or the error object if the account number is invalid. (http://localhost:8082/getTransactions/5853092093)  
+3. **/testExceptionHandling** : an end point just to see the error object construction.  (http://localhost:8082/testExceptionHandling)
 
 ## Unit tests ##
 Both the methods are covered using Unit Tests in AccountsControllerTest.java
