@@ -10,8 +10,8 @@ Accounts API
 The API jar can be built by downloading the Repository and running the command **mvn package**  
 from AccountsAPI.
 
-To run the jar, **cd** to **AccountsAPI/target** and run **java -jar AccountsAPI-1.0.jar**  
-This deploys the API on port **8082**
+To run the jar, **cd** to **AccountsAPI/target** and run **java -jar AccountsAPI-1.0.jar**.  
+This deploys the API on port **8082**.
 
 ## The Database ##
 
@@ -25,7 +25,8 @@ I have used the Generic Exception handling concept of Spring by using the **@Res
 Any unexpected exception in the API will trigger the method **GenericExceptionHandler/handleAllException** which  
 returns an error object (constructed using the model class ErrorDetail.java) to the client. 
 
-The error object contains a unique ID and the exception message. The ID and stacktrace are writted to logs.  
+The error object contains a unique ID and the exception message.  
+The ID and stacktrace are written to logs.  
 Using this Id, the developer can visit logs to find the full stacktrace.
 
 If the provided input is not valid, then a custom exception is thrown and a similar error object is returned to client.
