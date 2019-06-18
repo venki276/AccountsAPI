@@ -39,3 +39,19 @@ Three end points can be accessed.
 
 ## Unit tests ##
 Both the methods are covered using Unit Tests in AccountsControllerTest.java
+
+## Results ##
+
+1. Result of getAccounts call:
+
+![alt text](https://github.com/venki276/AccountsAPI/blob/master/Endpoint1.jpg)
+
+2. Result of getTransaction/{accountNumber} call:
+
+![alt text](https://github.com/venki276/AccountsAPI/blob/master/Endpoint2.jpg)
+
+3. Result of testExceptionhandling call:
+
+![alt text](https://github.com/venki276/AccountsAPI/blob/master/Endpoint3.jpg)
+
+**End of File**
