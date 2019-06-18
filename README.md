@@ -17,7 +17,7 @@ This deploys the API on port **8082**.
 
 ## The Database ##
 
-I have used HSQLDB for developing this API.  
+I have used HSQLDB which is an embedded database, for developing this API.  
 The Database has three tables. The details of these can be found inside **src/main/resources/schema.sql**.  
 The Data used in these tables, can be found inside **src/main/resources/data.sql**.
 
